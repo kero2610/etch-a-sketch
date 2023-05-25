@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: lightgray;;
+}
+
+.main{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.leftPanel{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.rightPanel{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.gridSizeButtonContainer{
+    display: flex;
+
+    gap: 20px;
+}
